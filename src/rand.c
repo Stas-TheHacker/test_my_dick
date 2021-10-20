@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+//TODO: user a better random generator
 int random_int(int max)
 {
-	return rand() % max;
+return rand() % max;
 }
 
 int main(int argc, char *argv[])
